@@ -7,3 +7,4 @@ class AlumniSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Alumni
 		exclude = ["alias"]
+		

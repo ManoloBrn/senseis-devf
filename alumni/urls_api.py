@@ -8,7 +8,7 @@ router = DefaultRouter()
 router.register(r'', AlumniViewSet)
 
 urlpatterns = [
-	url(r'^',include(router.urls) ),
+	url(r'^listado/',include(router.urls) ),
 	
 ]
 
