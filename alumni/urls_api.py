@@ -3,9 +3,9 @@ from rest_framework.routers import DefaultRouter
 from .views_api import AlumniList,AlumniDetail
 from .views_apiset import AlumniViewSet
 
-# router = DefaultRouter()
+router = DefaultRouter()
 
-# router.register(r'', AlumniViewSet)
+router.register(r'', AlumniViewSet)
 
 urlpatterns = [
 
@@ -37,4 +37,4 @@ alumni_detail = AlumniViewSet.as_view(
 
 
 ]
-
+"""
