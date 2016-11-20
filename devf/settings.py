@@ -11,7 +11,12 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+<<<<<<< HEAD
 import os, datetime
+=======
+import os
+import datetime
+>>>>>>> 5c8885099d01975c7b8f8ab06edcb6cf0fa43440
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -118,8 +123,17 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+<<<<<<< HEAD
 JWT_AUTH = {
     
     'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=86400),
     'JWT_AUTH_HEADER_PREFIX': 'JWT',
 }
+=======
+
+JWT_AUTH = {
+    
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(seconds=86400),
+    'JWT_AUTH_HEADER_PREFIX': 'TOKEN',
+}
+>>>>>>> 5c8885099d01975c7b8f8ab06edcb6cf0fa43440
